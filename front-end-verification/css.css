@@ -1,0 +1,155 @@
+body {
+    overflow-x: hidden;
+    background-color: #ececec;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginBg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.centerLogin{
+    max-width: 450px;
+    margin: 0 auto !important;
+}
+
+h1{
+    color: #3B9AFE;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.animation{
+    -webkit-transition: 0.2s !important;
+    -moz-transition: 0.2s !important;
+    -o-transition: 0.2s !important;
+    transition: 0.2s !important;
+}
+
+.text-center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icn_mail {
+    background-image: url(img/icn-mail.png);
+    background-size: 26px 26px;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin-left: 0px;
+    margin-top: 14px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.icn_mail_active{
+    background-image: url(img/icn-mail-selected.png);
+}
+
+.icn_password {
+    background-image: url(img/icn-password.png);
+    background-size: 26px 26px;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin-left: 0px;
+    margin-top: 14px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.icn_password_active{
+    background-image: url(img/icn-password-selected.png);
+}
+
+.button{
+    background: #3B9AFE;
+    padding: 14px;
+    border: 0px solid;font-size: 16px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.10);
+    border-radius: 6px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #2878cc;
+}
+
+.mrgT_10{
+    margin-top: 10px;
+}
+
+.mrgT_30{
+    margin-top: 30px;
+}
+
+.mrgT_50{
+    margin-top: 50px;
+}
+
+.mrgB_10{
+    margin-bottom: 10px;
+}
+
+.inputBox{
+    border-radius: 0px;
+    padding: 14px 40px;
+    color: #585858;
+    font-weight: 400;
+    max-width: 360px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #585858;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.inputBox:hover{
+    border-bottom: 1px solid #585858;
+}
+
+.inputBox:focus{
+    background-color: #ffffff;
+    border-bottom: 1px solid #3B9AFE;
+    outline-width: 0;
+}
+
+.boxWhite{
+    background-color: #fff;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}  
+
+.errorText {
+    color: #EE4047;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+
+.inputWrongBorderRed {
+    border-bottom: 2px solid #EE4047 !important;
+}
